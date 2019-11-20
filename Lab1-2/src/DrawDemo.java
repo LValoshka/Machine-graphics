@@ -11,9 +11,6 @@ public class DrawDemo extends JPanel {
     private Color currentColor;
     private JPanel buttonPanel = new JPanel();
     private ScrollPane scrollPane = new ScrollPane();
-    // private JMenu menu = new JMenu("Choose task");
-    //  private JMenuItem task1;
-
 
     private void initPanel() {
         setLayout(new BorderLayout());
@@ -21,7 +18,7 @@ public class DrawDemo extends JPanel {
 
         frame.setSize(600, 400);
         frame.setVisible(true);
-      //  scrollPane.add(lineDrawing);
+        //  scrollPane.add(lineDrawing);
         scrollPane.add(circleDrawing);
         frame.add(scrollPane);
     }

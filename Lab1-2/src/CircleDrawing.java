@@ -39,7 +39,6 @@ public class CircleDrawing extends JPanel {
         double r = (Math.sqrt(Math.pow(Math.abs(xend - xstart), 2) + Math.pow(Math.abs(yend - ystart), 2)));
         int sy = (int) r;
         int d = (int) (3 - 2 * r);
-        //     g.setColor(col);
         while (sx <= sy) {
             g.drawLine(xstart + sx, ystart - sy, xstart + sx, ystart - sy);
             g.drawLine(xstart + sx, ystart + sy, xstart + sx, ystart + sy);
